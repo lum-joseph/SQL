@@ -10,7 +10,7 @@ WHERE <Logical Expression, Boolean Expression>
 ```
 
 ### Overview of SQL on SSMS
-![image](https://user-images.githubusercontent.com/89778617/132669066-52ce220d-88c7-46bf-8a04-fe6122e1919c.png)
+![image](https://user-images.githubusercontent.com/89778617/132669416-584ece21-45f2-42b2-8c73-52dfbf44405b.png)
 
 
 ### List of Acronymns

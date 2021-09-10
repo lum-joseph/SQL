@@ -43,4 +43,5 @@ Note: Default "JOIN" is an "INNER JOIN"\
 
 #### Sources
 - Microsoft Course notes (20761C - Querying Data with Transact-SQL)
-- SQL in a nutshell (https://www.oreilly.com/library/view/sql-in-a/1565927443/ch01s03.html)
+- Course notes on [Graeme Malcolm GitHub](https://github.com/MicrosoftLearning/QueryingT-SQL)
+- SQL in a nutshell [online website](https://www.oreilly.com/library/view/sql-in-a/1565927443/ch01s03.html)

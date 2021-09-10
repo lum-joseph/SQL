@@ -29,7 +29,7 @@ HAVING <Logical Expression, Boolean Expression>
 
 #### Types of Joins
 There are 4 types of JOINS commonly used in SQL\
-Note: Default "JOIN" is an "INNER JOIN"
+Note: Default "JOIN" is an "INNER JOIN"\
 ![image](https://user-images.githubusercontent.com/89778617/132785560-83652450-de66-434a-8e73-cf583271043d.png)
 
 

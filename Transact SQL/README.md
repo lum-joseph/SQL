@@ -1,7 +1,7 @@
 # Notes on TSQL using SSMS
 Compiled by Joseph Lum
 
-#### Overview
+## Overview
 SSMS usings SQL99 standard which has more functions than ANSI-89 Syntax which is used by other SQL platforms. Documentation can be readily found on Google. 
 
 The ANSI standards — which cover retrieval, manipulation, and management of data in commands, such as SELECT, JOIN, ALTER TABLE, and DROP — formalized many SQL behaviors and syntax structures across a variety of products. These standards become even more important as open source database products, such as MySQL, miniSQL, and PostgreSQL, grow in popularity and are developed by virtual teams rather than large corporations.
@@ -50,7 +50,7 @@ Note: Default "JOIN" is an "INNER JOIN"
 | SSMS  | SQL Server Management Studio  |
 
 
-#### Sources
+## Sources
 - Microsoft Course notes (20761C - Querying Data with Transact-SQL)
 - Course notes on [Graeme Malcolm GitHub](https://github.com/MicrosoftLearning/QueryingT-SQL)
 - SQL in a nutshell [online website](https://www.oreilly.com/library/view/sql-in-a/1565927443/ch01s03.html)

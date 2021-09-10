@@ -18,17 +18,23 @@ WHERE <Logical Expression, Boolean Expression>
 ```SQL
 USE <database name>
 SELECT <columns, *> <Column Manipulation>
-FROM <table_name, views>
-WHERE <Logical Expression, Boolean Expression>
+FROM <table_name, views> <JOINS>
+GROUP BY <column name(s)>
+HAVING <Logical Expression, Boolean Expression>
 ```
-
 
 #### Overview of SQL on SSMS
 ![image](https://user-images.githubusercontent.com/89778617/132669416-584ece21-45f2-42b2-8c73-52dfbf44405b.png)
 
 
+#### Types of Joins
+There are 4 types of JOINS commonly used in SQL
+Note: Default "JOIN" is an "INNER JOIN"
+![image](https://user-images.githubusercontent.com/89778617/132785560-83652450-de66-434a-8e73-cf583271043d.png)
+
+
 #### List of Acronymns
-| Acronymns  | Second Header |
+| Acronymns  | Description |
 | :--------: | :-------- |
 | SQL  | Structured Query Language  |
 | TSQL  | Transact-SQL  |

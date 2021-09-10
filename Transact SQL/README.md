@@ -29,12 +29,12 @@ HAVING <Logical Expression, Boolean Expression>
 
 #### Types of Joins
 There are 3 main types of JOINS used in SQL
-1.	INNER JOIN
+1.	INNER JOIN\
       a.	Only shows entries found in both tables. 
-2.	Outer Joins
+2.	Outer Joins\
       a.	LEFT JOIN
       b.	RIGHT JOIN
-3.	Cross Join (Cartesian Join)
+3.	Cross Join (Cartesian Join)\
       a.	Get all the records from both tables. Includes all possible combinations.
 
 Note: Default "JOIN" is an "INNER JOIN"

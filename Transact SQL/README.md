@@ -32,7 +32,7 @@ There are 3 main types of JOINS used in SQL
 1.	INNER JOIN\
       a.	Only shows entries found in both tables. 
 2.	Outer Joins\
-      a.	LEFT JOIN
+      a.	LEFT JOIN\
       b.	RIGHT JOIN
 3.	Cross Join (Cartesian Join)\
       a.	Get all the records from both tables. Includes all possible combinations.

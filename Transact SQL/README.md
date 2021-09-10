@@ -2,7 +2,7 @@
 Compiled by Joseph Lum
 
 #### Overview
-SSMS usings SQL99 standard which has more functions than ANSI-89 Syntax which is used by other SQL platforms. 
+SSMS usings SQL99 standard which has more functions than ANSI-89 Syntax which is used by other SQL platforms. Documentation can be readily found on Google. 
 
 The ANSI standards — which cover retrieval, manipulation, and management of data in commands, such as SELECT, JOIN, ALTER TABLE, and DROP — formalized many SQL behaviors and syntax structures across a variety of products. These standards become even more important as open source database products, such as MySQL, miniSQL, and PostgreSQL, grow in popularity and are developed by virtual teams rather than large corporations.
 

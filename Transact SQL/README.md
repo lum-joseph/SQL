@@ -45,6 +45,7 @@ Note: Default "JOIN" is an "INNER JOIN"
 #### NULL Handling
 ```SQL
 COALESCE ( check_expression , replacement_value )  
+
 ISNULL(<column_name>, replacement_value)
 ```
 #### Concat function
@@ -54,8 +55,9 @@ CONCAT(<column_name>, ‘, ’, <column_name2>, ‘, ’, <column_name3>)
 ```
 #### Changing Data Types
 ```SQL
-•	CAST( <column_name> AS data_type )
-•	CONVERT( data_type, <column_name>, style) 
+CAST( <column_name> AS data_type )
+
+CONVERT( data_type, <column_name>, style) 
 ```
 
 ## List of Acronymns

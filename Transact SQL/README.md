@@ -50,6 +50,11 @@ Note: Default "JOIN" is an "INNER JOIN"
 | SSMS  | SQL Server Management Studio  |
 
 
+#### Microsoft SQL server Management Studio UI
+User interface of SSMS. It was a life save, having all the script saved under 1 solution. 
+![image](https://user-images.githubusercontent.com/89778617/133094392-bf2db535-1087-4596-97cc-2a590847bdc1.png)
+
+
 ## Sources
 - Microsoft Course notes (20761C - Querying Data with Transact-SQL)
 - Course notes on [Graeme Malcolm GitHub](https://github.com/MicrosoftLearning/QueryingT-SQL)

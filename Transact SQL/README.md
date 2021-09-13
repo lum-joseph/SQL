@@ -41,8 +41,24 @@ Note: Default "JOIN" is an "INNER JOIN"
 
 ![image](https://user-images.githubusercontent.com/89778617/132785560-83652450-de66-434a-8e73-cf583271043d.png)
 
+## Useful Functions
+#### NULL Handling
+```SQL
+COALESCE ( check_expression , replacement_value )  
+ISNULL(<column_name>, replacement_value)
+```
+#### Concat function
+Use concat instead of + when trying to concatenate a few columns. Concat will account for NULL values
+```SQL
+CONCAT(<column_name>, ‘, ’, <column_name2>, ‘, ’, <column_name3>)
+```
+#### Changing Data Types
+```SQL
+•	CAST( <column_name> AS data_type )
+•	CONVERT( data_type, <column_name>, style) 
+```
 
-#### List of Acronymns
+## List of Acronymns
 | Acronymns  | Description |
 | :--------: | :-------- |
 | SQL  | Structured Query Language  |
@@ -50,10 +66,16 @@ Note: Default "JOIN" is an "INNER JOIN"
 | SSMS  | SQL Server Management Studio  |
 
 
-#### Microsoft SQL server Management Studio UI
-User interface of SSMS. It was a life save, having all the script saved under 1 solution. 
+## Microsoft SQL server Management Studio UI
+User interface of SSMS. It was a life saver, having all the script saved under 1 solution. 
+
 ![image](https://user-images.githubusercontent.com/89778617/133094392-bf2db535-1087-4596-97cc-2a590847bdc1.png)
 
+| Object  | Parent | Description |
+| :--------: |:--------: | :-------- |
+| Solution	| - |A solution is a conceptual container for projects. Solutions have a .ssmssln extension, and are always displayed at the top of the hierarchy. |
+| Project | Solution | Projects contain queries (T-SQL scripts), database connection metadata, and other miscellaneous files. You can file any number of projects within a solution. Projects have a .ssmssqlproj extension.
+|Script | Project | T-SQL script files with a .sql extension are the basic files used to work with SQL Server.
 
 ## Sources
 - Microsoft Course notes (20761C - Querying Data with Transact-SQL)
